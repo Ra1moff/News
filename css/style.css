@@ -1,0 +1,201 @@
+@import url(fonts.css);
+@import url(common.css);
+
+html,body {
+
+  scroll-behavior: smooth;
+}
+
+/* header */
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__item {
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.header__item:hover {
+  color: #EF4423;
+}
+
+.header__link {
+  color: #000;
+}
+
+.header__image-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__the__news-txt {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 4px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nav__menu {
+  display: none;
+}
+
+/* header */
+
+/* main */
+
+.main__card-title {
+  margin-bottom: 10px;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.main__card-txt {
+  padding: 15px;
+  padding-top: 0;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: center;
+}
+
+.main__card {
+  background: #B71C1C;
+  color: #fff;
+  width: 25%;
+}
+
+.main__card2 {
+  color: #fff;
+  background: #6A1B9A;
+  width: 25%;
+}
+
+.main__card3 {
+  color: #fff;
+  background: #303F9F;
+  width: 25%;
+}
+
+.main__card4 {
+  color: #fff;
+  background: #00695C;
+  width: 25%;
+}
+
+.main__card-image {
+  width: 100%;
+}
+
+.last__title {
+  text-align: center;
+  margin: 41px 0;
+}
+
+.section3__cards {
+  display: flex;
+}
+
+.section3 {
+  background: #EDEDED;
+}
+
+.section3__card-info {
+  margin-left: 30px;
+  max-width: 540px;
+  padding-bottom: 31px;
+}
+
+.section3__card-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #3A3838;
+  font-size: 22px;
+}
+
+.section3__card-txt {
+  color: #686868;
+  font-size: 18px;
+}
+ 
+/* main */
+
+/* footer */
+
+.footer {
+  background: #3A3838;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list {
+  display: flex;
+  gap: 15px;
+}
+
+.footer__item {
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.footer__item:hover {
+  color: #EF4423;
+}
+
+.footer__link {
+  color: #FFFFFF;
+}
+
+.footer__the__news-txt {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 4px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer__image-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__menu {
+  display: none;
+}
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
